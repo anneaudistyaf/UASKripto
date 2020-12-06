@@ -1,0 +1,179 @@
+body {
+  margin: 0;
+  background-color: #C3BAB6;
+}
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #92817A;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.topnav .logobrand img {
+  width: 127px;
+  height: 86.25px;
+}
+
+ul.topnav .namebrand {
+  margin-top: 10px;
+  font-family: "Sue Ellen Francisco";
+  color: #000000;
+  font-weight: bold;
+  font-size: 35px;
+  margin-left: -30px;
+}
+
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+}
+
+.judul h3 {
+  font-family: "Sue Ellen Francisco";
+  font-size: 60px;
+  line-height: 117px;
+  color: black;
+  margin-left: 100px;
+  margin-top: 130px;
+}
+
+.judul p {
+  font-family: "Times New Roman";
+  font-weight: 400;
+  font-size: 30px;
+  margin-left: 100px;
+  margin-top: -20px;
+}
+
+.judul h6 {
+  background-image: url(gambar5.png);
+  position: absolute;
+  width: 1000px;
+  height: 739px;
+  margin-left: 550px;
+  margin-top: -600px;
+}
+
+.affine {
+  margin-left: 100px;
+  margin-top: 30px;
+}
+
+.affine form {
+  background-color: #BEDBBB;
+  border-radius: 30px;
+  width: 605px;
+}
+
+.affine form h2, textarea, p {
+  margin-left: 50px;
+}
+
+.affine form h2 {
+  margin-top: 30px;
+  font-family: Sue Ellen Francisco;
+  font-size: 50px;
+}
+
+.affine form textarea {
+  border-radius: 15px;
+  background-color: #FFFFFF;
+  width: 505px;
+  height: 150px;
+}
+
+.affine form p {
+  font-family: "Times New Roman";
+}
+
+.affine form select {
+  width: 80px;
+  height: 30px;
+  border-radius: 15px;
+}
+
+.affine input {
+  height: 20px;
+  background-color: #8DB596;
+  width: 80px; 
+}
+
+.vigenere {
+  float: right;
+  margin-left: 50px;
+  margin-top: -710px;
+  margin-right: 100px;
+}
+
+.vigenere form {
+  background-color: #BEDBBB;
+  border-radius: 30px;
+  width: 605px;
+}
+
+.vigenere form h2, textarea, p {
+  margin-left: 50px;
+}
+
+.vigenere form h2 {
+  margin-top: 30px;
+  font-family: Sue Ellen Francisco;
+  font-size: 50px;
+}
+
+.vigenere form textarea {
+  border-radius: 15px;
+  background-color: #FFFFFF;
+  width: 505px;
+  height: 150px;
+}
+
+.vigenere form p {
+  font-family: "Times New Roman";
+}
+
+.vigenere form select {
+  width: 80px;
+  height: 30px;
+  border-radius: 15px;
+}
+
+.vigenere input[type=text] {
+  height: 30px;
+  width: 150px;
+}
+
+.vigenere input[type=radio] {
+  height: 20px;
+  width: 100px;
+  text-align: center;
+}
+
+.vigenere .keyv{
+  border-radius: 15px;
+  height: 30px;
+  background-color: #FFFFFF;
+  width: 200px;
+  margin-left: 20px;
+}
+
+.footer {
+  background-color: #92817A;
+  text-align: center;
+  margin-bottom: -30px;
+}
